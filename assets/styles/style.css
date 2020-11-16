@@ -12,15 +12,44 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/* header{
+  height: 1999px;
+} */
 .jumbotron {
-  text-align: center;
   background-color: transparent;
+  padding: 0 1vw 1vw 1vw;
   color: black;
   border-radius: 0;
+  display: block;
+  /* border-bottom: 10px solid black; */
+}
+.jumbotron h1, .jumbotron, .jumbotron p{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: flex-start;
+}
+/* .row{
+   display: block;;
+} */
+header{
   border-bottom: 10px solid black;
 }
-
+div[class*="col-"]{
+  border: solid 3px black;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.date-header{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.date-header h4{
+  font-size: 38px;
+}
 .description{
   white-space: pre-wrap;
 }
@@ -31,8 +60,8 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
-  height: 80px;
+  /* white-space: pre-wrap; */
+  /* height: 80px; */
   border-top: 1px solid white;;
 }
 
